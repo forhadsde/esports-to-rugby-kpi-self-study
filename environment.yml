@@ -1,0 +1,26 @@
+name: sportskpi
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - pyarrow
+  - scipy
+  - scikit-learn
+  - xgboost
+  - lightgbm
+  - shap
+  - statsmodels
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - requests
+  - tqdm
+  - pytorch
+  - pytorch-cuda=12.1
+  - pip
+  - pip:
+      - ultralytics

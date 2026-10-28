@@ -1,0 +1,10 @@
+data/raw/
+data/processed/
+papers/
+outputs/models/*.pt
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+report/*.aux
+report/*.log
+report/*.out
